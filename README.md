@@ -1,4 +1,5 @@
 # Flapjackery
+![Screenshot of game](flapjackeryscreenshot.png)
 Flapjackery is an 8-bit themed game in which you run a factory to industrially produce pancakes!
 ## How it was made
 Flapjackery was made entirely in Python, and heavily utilized the Pygame library for all core functions. The game is made up of two main Python scripts: the main.py script that runs the game and handles all the functions inside the game, and the animhandler.py script that stores all the animation frames and categorizes them into lists that are then accessed by the main script!
