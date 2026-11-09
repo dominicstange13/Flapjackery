@@ -114,4 +114,5 @@ pcright7 = pygame.transform.rotate(pcup7, 270)
 pcrightframes = [pcright1, pcright2, pcright3, pcright4, pcright5, pcright6, pcright7]
 
 defaultframes = [mixer1, press1, stove1, butter1, syrup1, conveyerup3, conveyerdown3, conveyerleft3, conveyerright3]
+pcframes = [pcup3, pcdown3, pcleft3, pcright3] #not displayed in build menu
 animframes = [mixerframes, pressframes, stoveframes, butterframes, syrupframes, conveyerupframes, conveyerdownframes, conveyerleftframes, conveyerrightframes, pcupframes, pcdownframes, pcleftframes, pcrightframes]
