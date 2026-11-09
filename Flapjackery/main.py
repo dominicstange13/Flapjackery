@@ -282,7 +282,6 @@ class Building:
                             self.working = True
                             pancakes[pancakerects.index(p)].previousconveyer = self.rect.topleft
                             p.topleft = c
-                        #else:
 
 class Pancake():
     def __init__(self, x, y):
@@ -362,8 +361,8 @@ while running:
     if not inventoryopen:
         purchasebuttons.clear()
     renderbuildings()
-    for p in pancakerects: # temporary lines for hitbox rendering for debug -- maybe add as a toggleable feature?
-        screen.blit(gridbox, p)
+    #for p in pancakerects: # temporary lines for hitbox rendering for debug -- maybe add as a toggleable feature?
+        #screen.blit(gridbox, p)
     renderui()
     for p in pancakes:
         if not any(p.rect.colliderect(b) for b in buildingrects):
