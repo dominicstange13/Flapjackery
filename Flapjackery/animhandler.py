@@ -113,6 +113,15 @@ pcright6 = pygame.transform.rotate(pcup6, 270)
 pcright7 = pygame.transform.rotate(pcup7, 270)
 pcrightframes = [pcright1, pcright2, pcright3, pcright4, pcright5, pcright6, pcright7]
 
-defaultframes = [mixer1, press1, stove1, butter1, syrup1, conveyerup3, conveyerdown3, conveyerleft3, conveyerright3]
+collector1 = pygame.image.load("assets/images/collector/collector1.png")
+collector2 = pygame.image.load("assets/images/collector/collector2.png")
+collector3 = pygame.image.load("assets/images/collector/collector3.png")
+collector4 = pygame.image.load("assets/images/collector/collector4.png")
+collector5 = pygame.image.load("assets/images/collector/collector5.png")
+collectorframes = [collector1, collector2, collector3, collector4, collector5]
+
+defaultframes = [mixer1, press1, stove1, butter1, syrup1, collector1, conveyerup3, conveyerdown3, conveyerleft3, conveyerright3] # scaled to match grid size
+iconframes = [mixer1, press1, stove1, butter1, syrup1, collector1, conveyerup3, conveyerdown3, conveyerleft3, conveyerright3] # not scaled to match grid size
 pcframes = [pcup3, pcdown3, pcleft3, pcright3] #not displayed in build menu
-animframes = [mixerframes, pressframes, stoveframes, butterframes, syrupframes, conveyerupframes, conveyerdownframes, conveyerleftframes, conveyerrightframes, pcupframes, pcdownframes, pcleftframes, pcrightframes]
+animframes = [mixerframes, pressframes, stoveframes, butterframes, syrupframes, collectorframes, conveyerupframes, conveyerdownframes, conveyerleftframes, conveyerrightframes, pcupframes, pcdownframes, pcleftframes, pcrightframes]
+logoframes = [syrup2, syrup3, syrup3, syrup4, syrup5, syrup6] # never scaled
